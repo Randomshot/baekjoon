@@ -89,8 +89,10 @@ int boolPrimeNum(int num){
     int sqrtNum = (int)sqrt(num);
 
     for(int i=2; i<=sqrtNum; i++){
-        if(num%i==0) count--;
+        if(num%i==0){
+            count--;
+            break;
+        }
     }
-    if(count < 1) count = 0;
     return count;
 }

@@ -4,9 +4,6 @@
 #include <cmath>
 #include <algorithm>
 using namespace std;
-int boolPrimeNum(int num);
-vector<int> makePrimeNumList(int size);
-vector<int> primeFactorization(int num,vector<int> primeNumList);
 int main(){
 
     vector<int> primeNumList;
