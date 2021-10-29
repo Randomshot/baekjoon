@@ -1,3 +1,4 @@
+//sqrt 함수는 손실 부분이 있을 수 있으니 제곱해서 비교 하자.
 #include <iostream>
 #include <vector>
 #include <cmath>
